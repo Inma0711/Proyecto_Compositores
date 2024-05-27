@@ -1,0 +1,142 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/8779025.jpg');
+    /* Ruta de la imagen de fondo */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center;
+    /* Centra la imagen de fondo */
+    overflow: hidden; /* Evita el desplazamiento vertical */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*==========================ASIDE==========================*/
+.aside {
+    position: fixed;
+    /* Relativo a su posición normal */
+    display: flex;
+    /* Utiliza flexbox */
+    flex-direction: column;
+    /* Elementos en columnas */
+    width: 130px;
+    /* Ancho fijo */
+    height: 100vh;
+    /* Altura al 90% del viewport */
+    background-color: rgb(59, 201, 161, 1);
+    /* Color de fondo */
+    align-items: center;
+    /* Centra horizontalmente los elementos */
+    left: -150px;
+    transition: left 0.3s ease;
+    /* Transición de la propiedad left */
+    justify-content: center;
+}
+
+.aside.hidden {
+    left: 0px;
+    /* Desplaza el menú hacia la izquierda */
+}
+
+.boton {
+    position: fixed;
+    /* Fijar posición del botón */
+    top: 50px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1;
+    /* Asegurar que el botón esté encima por defecto */
+}
+
+.boton:hover,
+.item_aside:hover {
+    transform: scale(1.1);
+}
+
+.item_aside {
+    flex-direction: column;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+/*==========================BASE DE LA TABLA==========================*/
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    width: 80vw; /* Ancho del contenedor en 80% del viewport width */
+    height: 80vh; /* Altura del contenedor en 80% del viewport height */
+    background-color: rgba(59, 201, 161, 0.6);
+    border-radius: 25px;
+    margin-left: 10vw; /* Margen izquierdo en 10% del viewport width */
+    margin-top: 4%;
+}
+
+.borde_dentro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* Distribuye uniformemente el espacio entre los elementos */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    height: 70vh;
+    width: 70vw;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+/*==========================TABLA==========================*/
+h1{
+    font-weight: bold;
+    /* Peso de la fuente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Familia de fuente */
+    color: white;
+    /* Color del texto */
+    padding: 2%;
+}
+
+.table-container {
+    height: 60vh;
+    width: 60vw;
+    text-align: center;
+    border-radius: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    overflow-y: auto; /* Agrega un scroll vertical si es necesario */
+}
+
+.table-container th,
+.table-container td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+    font-weight: bold;
+}
+
+.table-container td:hover {
+    background-color:  rgba(46, 255, 196, 0.6);
+    transition-duration: 0.1s;
+}
+
+
