@@ -139,4 +139,28 @@ h1{
     transition-duration: 0.1s;
 }
 
+.botoncito {
+    border-radius: 25px;
+    /* Borde redondeado */
+    border: none;
+    /* Sin borde */
+    padding: 10px 30px;
+    /* Relleno */
+    font-weight: bold;
+    /* Peso de la fuente */
+    cursor: pointer;
+    /* Cursor apuntador */
+    color: rgb(255, 255, 255);
+    /* Color del texto */
+    background-color: #ff4747;
+    transition-duration: 0.3s;
+    /* Duración de la transición */
+}
+
+.botoncito:hover {
+    transition-duration: 0.3s;
+    /* Duración de la transición */
+    background-color: #ffffff;
+    color: #ff4747;
+}
 

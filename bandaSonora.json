@@ -1,0 +1,724 @@
+{
+  "compositores": [
+    {
+      "id": 1,
+      "compositor": "Aaron Zigma",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "El diario de Noa",
+          "source": "../audio/AaronZigma-Overture.mp3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "compositor": "Alan Silvestri",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Capitan América",
+          "source": "../audio/AlanSilvestri-CapitanAmerica.mp3"
+        },
+        {
+          "id": 2,
+          "titulo": "Forrest Gump",
+          "source": "../audio/AlanSilvestri-ForrestGump.mp3"
+        },
+        {
+          "id": 3,
+          "titulo": "La Momia",
+          "source": "../audio/AlanSilvestri-TheMummy.mp3"
+        },
+        {
+          "id": 4,
+          "titulo": "La muerte os sienta tan bien",
+          "source": "../audio/AlanSilvestri-LaMuerteOsSientaTanBien.mp3"
+        },
+        {
+          "id": 5,
+          "titulo": "Noche en el museo",
+          "source": "../audio/AlanSilvestri-NightAtTheMuseum.mp3"
+        },
+        {
+          "id": 6,
+          "titulo": "Pinocchio",
+          "source": "../audio/AlanSilvestri-Pinocchio.mp3"
+        },
+        {
+          "id": 7,
+          "titulo": "Ready player one",
+          "source": "../audio/AlanSilvestri-ReadyPlayerOne.mp3"
+        },
+        {
+          "id": 8,
+          "titulo": "Regreso al futuro 1",
+          "source": "../audio/AlanSilvestri-RegresoAlFuturo1.mp3"
+        },
+        {
+          "id": 9,
+          "titulo": "Stuart Little 2",
+          "source": "../audio/AlanSilvestri-StuartLittle2.mp3"
+        },
+        {
+          "id": 10,
+          "titulo": "The Avengers",
+          "source": "../audio/AlanSilvestri-TheAvengers.mp3"
+        },
+        {
+          "id": 11,
+          "titulo": "Los Croods",
+          "source": "../audio/AlanSilvestri-LosCroods.mp3"
+        },
+        {
+          "id": 12,
+          "titulo": "The polar exprees",
+          "source": ""
+        },
+        {
+          "id": 13,
+          "titulo": "Tom rayder",
+          "source": ""
+        },
+        {
+          "id": 14,
+          "titulo": "Un ratoncito duro de roer",
+          "source": ""
+        },
+        {
+          "id": 15,
+          "titulo": "Regreso al Futuro 2",
+          "source": "../audio/AlanSilvestri-RegresoAlFuturo2.mp3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "compositor": "Alexander Desplat",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Coco Chanel",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "El Escritor Fantasma",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "La Chica Danesa",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "La Forma del Agua",
+          "source": ""
+        },
+        {
+          "id": 5,
+          "titulo": "Las Reliquias de la Muerte",
+          "source": ""
+        },
+        {
+          "id": 6,
+          "titulo": "Mujercitas",
+          "source": ""
+        },
+        {
+          "id": 7,
+          "titulo": "Pinocchio",
+          "source": ""
+        },
+        {
+          "id": 8,
+          "titulo": "The Imitation Game",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "compositor": "Bernard Herrmann",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Con la Muerte en los Talones",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "compositor": "Brad Fiedel",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Terminator",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "compositor": "Carlos Rafael Rivera",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Chupa",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Gambito de Dama",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "compositor": "Danny Elfman",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Alicia en el País de las Maravillas",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Charlie en la Fábrica de Chocolate",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "compositor": "David Newman",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Anastasia",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Ice Ace",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "compositor": "Ennio Morricone",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Django",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "El bueno, el feo y el malo",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Por un Puñado de Dólares",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "The mission",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "compositor": "Geinoh Yamashirogumi",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Akira",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "compositor": "Hans Zimmer",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Ángeles y Demonios",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Batman",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Dune",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "El Dorado",
+          "source": ""
+        },
+        {
+          "id": 5,
+          "titulo": "El Rey León",
+          "source": ""
+        },
+        {
+          "id": 6,
+          "titulo": "Gladiator",
+          "source": ""
+        },
+        {
+          "id": 7,
+          "titulo": "Inception",
+          "source": ""
+        },
+        {
+          "id": 8,
+          "titulo": "Interestelar",
+          "source": ""
+        },
+        {
+          "id": 9,
+          "titulo": "Piratas del Caribe",
+          "source": ""
+        },
+        {
+          "id": 10,
+          "titulo": "Spirit",
+          "source": ""
+        },
+        {
+          "id": 11,
+          "titulo": "The Creator",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "compositor": "Harry Gregson-William",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Chicken Run",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "El Príncipe de Persia",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Narnia",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "compositor": "James Horner",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "A beautiful mind",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Avatar",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "El niño con pijama de rayas",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "El zorro",
+          "source": ""
+        },
+        {
+          "id": 5,
+          "titulo": "Jumanji",
+          "source": ""
+        },
+        {
+          "id": 6,
+          "titulo": "Karate Kid",
+          "source": ""
+        },
+        {
+          "id": 7,
+          "titulo": "Leyendas de Pasión",
+          "source": ""
+        },
+        {
+          "id": 8,
+          "titulo": "Spiderman",
+          "source": ""
+        },
+        {
+          "id": 9,
+          "titulo": "Titanic",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "compositor": "James Newton Howard",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "After Earth",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Animales Fantásticos",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Batman",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "Dinosaurio",
+          "source": ""
+        },
+        {
+          "id": 5,
+          "titulo": "El Planeta del Tesoro",
+          "source": ""
+        },
+        {
+          "id": 6,
+          "titulo": "Space Jam",
+          "source": ""
+        },
+        {
+          "id": 7,
+          "titulo": "Kung fu Panda",
+          "source": ""
+        },
+        {
+          "id": 8,
+          "titulo": "La luz que no puedes ver",
+          "source": ""
+        },
+        {
+          "id": 9,
+          "titulo": "Los Juegos del Hambre",
+          "source": ""
+        },
+        {
+          "id": 10,
+          "titulo": "Malefica",
+          "source": ""
+        },
+        {
+          "id": 11,
+          "titulo": "Peter Pan",
+          "source": ""
+        },
+        {
+          "id": 12,
+          "titulo": "Soy Leyenda",
+          "source": ""
+        },
+        {
+          "id": 13,
+          "titulo": "The Village",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "compositor": "Javier Navarrete",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "El Laberinto del Fauno",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "compositor": "Joe Hisaishi",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "El Castillo Ambulante"
+        },
+        {
+          "id": 2,
+          "titulo": "El Viaje de Chihiro",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "La Princesa Mononoke",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "Mi Vecino Totoro",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "compositor": "John Barrey",
+      "bandaSonoras":[
+        {
+          "id": 1,
+          "titulo": "Memorias de África",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "compositor": "John Debney",
+      "bandaSonoras":[
+        {
+          "id": 1,
+          "titulo": "Hocus Pocus",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "compositor": "John Williams",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Atrápame si Puedes",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Harry Potter 2",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Hook",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "Jurasic Park",
+          "source": ""
+        },
+        {
+          "id": 5,
+          "titulo": "Las Brujas de Eastwick",
+          "source": ""
+        },
+        {
+          "id": 6,
+          "titulo": "Start Wars",
+          "source": ""
+        },
+        {
+          "id": 7,
+          "titulo": "Supermán",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "compositor": "John Ottman",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "X-Men",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "compositor": "John Powell",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Chicken Run",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Como Entrenar a tu Dragón 2",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Happy Feet",
+          "source": ""
+        },
+        {
+          "id": 4,
+          "titulo": "Shrek",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "compositor": "Justin Hurwitz",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "La la land",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Whiplash",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "compositor": "Luca Guadagnino",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Call Me By Your Name",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "compositor": "Randy Newman",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Mounstruos S.A",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "compositor": "Ron Wasserman",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Power Rangers",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "compositor": "Roque Baños",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "La Comunidad",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "compositor": "Mark Mancina",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Hermano Oso",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Tarzán",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Vaiana 1 y 2",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "compositor": "Michael Giaccino",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "John Carter",
+          "source": ""
+        },
+        {
+          "id": 2,
+          "titulo": "Sociedad en la Nieve",
+          "source": ""
+        },
+        {
+          "id": 3,
+          "titulo": "Up",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "compositor": "Nicola Piovani",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "La Vida es Bella",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "compositor": "Tyler Bates",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "Guardianes de la Galaxia",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "compositor": "Trevor Jones",
+      "bandaSonoras": [
+        {
+          "id": 1,
+          "titulo": "El Último Mohicano",
+          "source": ""
+        }
+      ]
+    }
+  ]
+}

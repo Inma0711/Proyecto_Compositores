@@ -13,7 +13,7 @@
     />
     <?php require '../includes/conexion.php' ?>
     <?php require '../includes/depurar.php' ?>
-    <script src="../js/registroCompositor.js" defer></script>
+    <script src="../js/aside.js" defer></script>
     <title>Inicial</title>
 </head>
 <body>
@@ -24,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Obtener los datos del formulario y sanitizarlos
     $temp_compositor = depurar($_POST["nombre_compositor"]);
     $temp_pelicula = depurar($_POST["nombre_pelicula"]);
-    $temp_pista_musica = $_FILES["pista_musica"]["name"]; // Obtener el nombre del archivo de la pista de música
 
     // Validación de nombre del compositor
     if (empty($temp_compositor)) {
@@ -41,6 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nombre_pelicula = $temp_pelicula;
     }
 
+    /*
     // Validar y guardar la pista de música si se proporciona
     if (!empty($temp_pista_musica)) {
         // Mover el archivo de la pista de música al directorio de destino
@@ -48,6 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $ruta_pista_musica = $directorio_destino . basename($temp_pista_musica);
         move_uploaded_file($_FILES["pista_musica"]["tmp_name"], $ruta_pista_musica);
     }
+    */
 }
     if (isset($nombre_compositor) && isset($nombre_pelicula)) {
         $sql_check = "SELECT * FROM peliculas WHERE titulo = '$nombre_pelicula' AND compositor_id IN (SELECT id FROM compositores WHERE nombre = '$nombre_compositor')";
@@ -68,15 +69,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    }
 ?>
 
-   <div class="boton" id="boton">
+<div class="boton" id="boton">
     <i class="fa-solid fa-bars fa-2xl" style="color: #ffffff" id="boton"></i>
    </div>
    <div class="aside" id="aside">
-    <a href="paginaInicial.php" class="item_aside">
+   <a href="paginaInicial.php" class="item_aside">
      <i class="fa-solid fa-house fa-2xl" style="color: #ffffff"></i>
     </a>
     <a href="" class="item_aside">
      <i class="fa-solid fa-pen-nib fa-2xl" style="color: #ffffff"></i>
+    </a>
+    <a href="bandaApi.html" class="item_aside">
+     <i class="fa-solid fa-music fa-2xl" style="color: #ffffff"></i>
     </a>
    </div>
 
@@ -94,10 +98,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <input type="text" id="nombre_pelicula" name="nombre_pelicula" placeholder="Película" required><br><br>
                     <i class="fa-solid fa-film fa-xl" style="color: #ffffff"></i>
                     <?php if (isset($err_pelicula)) echo $err_pelicula ?>
-                </div>
-                <div class="compositor_container">
-                    <input type="file" id="pista_musica" name="pista_musica" accept=".mp3, .wav">
-                    <i class="fa-solid fa-music fa-xl" style="color: #ffffff"></i>
                 </div>
             
                 <input type="submit" class="register_boton" value="Insertar">
